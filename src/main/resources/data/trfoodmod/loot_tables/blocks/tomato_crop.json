@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "comment": "Bu havuz, sadece ekin tam büyüdüğünde (age=7) aktif olur ve domates düşürür.",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trfoodmod:tomato"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 3.0,
+            "max": 6.0
+          }
+        },
+        {
+          "comment": "Bu fonksiyon, Fortune (Servet) büyüsünün etkisini ekler. Servet 3 ile daha fazla domates düşer.",
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:ore_drops"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "trfoodmod:tomato_crop",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ]
+
+    },
+    {
+      "comment": "Bu havuz, tohumların düşmesini sağlar.",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trfoodmod:tomato_seeds"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1.0,
+            "max": 3.0
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "trfoodmod:tomato_crop",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ]
+    }
+  ]
+}

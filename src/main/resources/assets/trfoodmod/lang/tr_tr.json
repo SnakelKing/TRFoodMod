@@ -1,0 +1,33 @@
+{
+  "item.trfoodmod.tomato": "Domates",
+  "item.trfoodmod.tomato_seeds": "Domates Tohumu",
+  "block.trfoodmod.tomato_crop": "Domates Ekini",
+
+  "item.trfoodmod.eggplant": "Patlıcan",
+  "item.trfoodmod.eggplant_seeds": "Patlıcan Tohumu",
+  "block.trfoodmod.eggplant_crop": "Patlıcan Ekini",
+
+  "item.trfoodmod.broccoli": "Brokoli",
+  "item.trfoodmod.broccoli_seeds": "Brokoli Tohumu",
+  "block.trfoodmod.broccoli_crop": "Brokoli Ekini",
+
+  "item.trfoodmod.corn": "Mısır",
+  "item.trfoodmod.corn_seeds": "Mısır Tohumu",
+  "block.trfoodmod.corn_crop": "Mısır Ekini",
+
+  "item.trfoodmod.artichoke": "Enginar",
+  "item.trfoodmod.artichoke_seeds": "Enginar Tohumu",
+  "block.trfoodmod.artichoke_crop": "Enginar Ekini",
+
+  "item.trfoodmod.asparagus": "Kuşkonmaz",
+  "item.trfoodmod.asparagus_seeds": "Kuşkonmaz Tohumu",
+  "block.trfoodmod.asparagus_crop": "Kuşkonmaz Ekini",
+
+  "item.trfoodmod.blackberry": "Böğürtlen",
+  "item.trfoodmod.blackberry_seeds": "Böğürtlen Tohumu",
+  "block.trfoodmod.blackberry_crop": "Böğürtlen Ekini",
+
+  "item.trfoodmod.leek": "Pırasa",
+  "item.trfoodmod.leek_seeds": "Pırasa Tohumu",
+  "block.trfoodmod.leek_crop": "Pırasa Ekini"
+}

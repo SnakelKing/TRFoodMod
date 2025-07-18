@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "trfoodmod:block/artichoke_stage1" // Bu yol doğru mu?
+  }
+}

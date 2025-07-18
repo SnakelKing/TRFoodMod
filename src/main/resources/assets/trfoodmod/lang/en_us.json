@@ -1,0 +1,33 @@
+{
+  "item.trfoodmod.tomato": "Tomato",
+  "item.trfoodmod.tomato_seeds": "Tomato Seeds",
+  "block.trfoodmod.tomato_crop": "Tomato Crop",
+
+  "item.trfoodmod.eggplant": "Eggplant",
+  "item.trfoodmod.eggplant_seeds": "Eggplant Seeds",
+  "block.trfoodmod.eggplant_crop": "Eggplant Crop",
+
+  "item.trfoodmod.broccoli": "Broccoli",
+  "item.trfoodmod.broccoli_seeds": "Broccoli Seeds",
+  "block.trfoodmod.broccoli_crop": "Broccoli Crop",
+
+  "item.trfoodmod.corn": "Corn",
+  "item.trfoodmod.corn_seeds": "Corn Seeds",
+  "block.trfoodmod.corn_crop": "Corn Crop",
+
+  "item.trfoodmod.artichoke": "Artichoke",
+  "item.trfoodmod.artichoke_seeds": "Artichoke Seeds",
+  "block.trfoodmod.artichoke_crop": "Artichoke Crop",
+
+  "item.trfoodmod.asparagus": "Asparagus",
+  "item.trfoodmod.asparagus_seeds": "Asparagus Seeds",
+  "block.trfoodmod.asparagus_crop": "Asparagus Crop",
+
+  "item.trfoodmod.blackberry": "Blackberry",
+  "item.trfoodmod.blackberry_seeds": "Blackberry Seeds",
+  "block.trfoodmod.blackberry_crop": "Blackberry Crop",
+
+  "item.trfoodmod.leek": "Leek",
+  "item.trfoodmod.leek_seeds": "Leek Seeds",
+  "block.trfoodmod.leek_crop": "Leek Crop"
+}

@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved" # Lisansınızı belirleyebilirsiniz
+[[mods]]
+modId="trfoodmod" # MODUNUZUN BENZERSİZ KİMLİĞİ. ÇOK ÖNEMLİ!
+version="1.0.0"
+displayName="TRFoodMod" # Oyundaki görünecek adı
+authors="CeFu"
+description='''
+Minecraft'a Türk mutfağına özgü yiyecekler, meyveler ve sebzeler ekler.
+'''
