@@ -76,7 +76,16 @@ public class BlockInit {
                     .randomTicks()
                     .instabreak()
                     .sound(SoundType.CROP)));
+
+    public static final RegistryObject<Block> BLUEBERRY_CROP = BLOCKS.register("blueberry_crop",
+            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)));
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
 }
+//BLUEBERRY

@@ -29,5 +29,9 @@
 
   "item.trfoodmod.leek": "Pırasa",
   "item.trfoodmod.leek_seeds": "Pırasa Tohumu",
-  "block.trfoodmod.leek_crop": "Pırasa Ekini"
+  "block.trfoodmod.leek_crop": "Pırasa Ekini",
+
+  "item.trfoodmod.blueberry": "Yaban Mersini",
+  "item.trfoodmod.blueberry_seeds": "Yaban mersini Tohumu",
+  "block.trfoodmod.blueberry_crop": "Yaban mersini Ekini"
 }

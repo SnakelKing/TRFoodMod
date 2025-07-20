@@ -45,4 +45,10 @@ public class ModFoods {
             .saturationMod(0.3f)
             .build();
 
+    public static final FoodProperties BLUEBERRY = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.3f)
+            .build();
+
 }
+//Blueberry

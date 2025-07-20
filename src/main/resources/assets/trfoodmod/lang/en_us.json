@@ -29,5 +29,10 @@
 
   "item.trfoodmod.leek": "Leek",
   "item.trfoodmod.leek_seeds": "Leek Seeds",
-  "block.trfoodmod.leek_crop": "Leek Crop"
+  "block.trfoodmod.leek_crop": "Leek Crop",
+
+  "item.trfoodmod.blueberry": "Blueberry",
+  "item.trfoodmod.blueberry_seeds": "Blueberry Seeds",
+  "block.trfoodmod.blueberry_crop": "Blueberry Crop"
 }
+//blueberry

@@ -85,4 +85,13 @@ public class ItemInit {
     //
     public static final RegistryObject<Item> LEEK_SEEDS = ITEMS.register("leek_seeds",
             () -> new ItemNameBlockItem(BlockInit.LEEK_CROP.get(), new Item.Properties()));
+
+    //
+    public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
+            () -> new Item(new Item.Properties().food(ModFoods.BLUEBERRY)));
+
+    //
+    public static final RegistryObject<Item> BLUEBERRY_SEEDS = ITEMS.register("blueberry_seeds",
+            () -> new ItemNameBlockItem(BlockInit.BLUEBERRY_CROP.get(), new Item.Properties()));
 }
+//BLUEBERRY
