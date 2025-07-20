@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "comment": "leek düşüren havuz",
+      "comment": "Pırasa düşüren havuz",
       "rolls": 1,
       "entries": [
         {

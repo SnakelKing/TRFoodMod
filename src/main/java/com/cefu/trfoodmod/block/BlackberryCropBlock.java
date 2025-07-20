@@ -8,31 +8,24 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+// ... diğer importlar ...
 
 public class BlackberryCropBlock extends CropBlock {
     public static final int MAX_AGE = 3;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
 
-    public BlackberryCropBlock(Properties pProperties) {
-        super(pProperties);
-    }
+    public BlackberryCropBlock(Properties pProperties) { super(pProperties); }
 
-    // Bu metodun patlıcan tohumunu döndürdüğünden emin olun!
     @Override
-    protected ItemLike getBaseSeedId() {
-
-        return ItemInit.BLACKBERRY_SEEDS.get();
-    }
+    protected ItemLike getBaseSeedId() { return ItemInit.BLACKBERRY_SEEDS.get(); }
 
     @Override
     public IntegerProperty getAgeProperty() {
-
         return AGE;
     }
 
     @Override
     public int getMaxAge() {
-
         return MAX_AGE;
     }
 

@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class EggplantCropBlock extends CropBlock {
     public static final int MAX_AGE = 3;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
 
     public EggplantCropBlock(Properties pProperties) {
         super(pProperties);

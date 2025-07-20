@@ -13,25 +13,18 @@ public class ArtichokeCropBlock extends CropBlock {
     public static final int MAX_AGE = 3;
     public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
 
-    public ArtichokeCropBlock(Properties pProperties) {
-        super(pProperties);
-    }
-
+    public ArtichokeCropBlock(Properties pProperties) { super(pProperties); }
 
     @Override
-    protected ItemLike getBaseSeedId() {
-        return ItemInit.ARTICHOKE_SEEDS.get();
-    }
+    protected ItemLike getBaseSeedId() { return ItemInit.ARTICHOKE_SEEDS.get(); }
 
     @Override
     public IntegerProperty getAgeProperty() {
-
         return AGE;
     }
 
     @Override
     public int getMaxAge() {
-
         return MAX_AGE;
     }
 

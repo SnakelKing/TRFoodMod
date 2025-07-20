@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "comment": "Blackberry düşüren havuz",
+      "comment": "bögürtlen düşüren havuz",
       "rolls": 1,
       "entries": [
         {
@@ -15,7 +15,7 @@
           "function": "minecraft:set_count",
           "count": {
             "type": "minecraft:uniform",
-            "min": 4.0,
+            "min": 3.0,
             "max": 6.0
           }
         },

@@ -17,22 +17,19 @@ public class LeekCropBlock extends CropBlock {
         super(pProperties);
     }
 
-    // Bu metodun patlıcan tohumunu döndürdüğünden emin olun!
+    // Bu metodun leek tohumunu döndürdüğünden emin olun!
     @Override
     protected ItemLike getBaseSeedId() {
-
         return ItemInit.LEEK_SEEDS.get();
     }
 
     @Override
     public IntegerProperty getAgeProperty() {
-
         return AGE;
     }
 
     @Override
     public int getMaxAge() {
-
         return MAX_AGE;
     }
 

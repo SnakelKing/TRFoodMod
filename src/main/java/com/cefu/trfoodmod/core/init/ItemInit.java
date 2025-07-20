@@ -65,6 +65,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties().food(ModFoods.ASPARAGUS)));
 
     //  TOHUMU
+    // ItemInit.java dosyasının içinde
+
     public static final RegistryObject<Item> ASPARAGUS_SEEDS = ITEMS.register("asparagus_seeds",
             () -> new ItemNameBlockItem(BlockInit.ASPARAGUS_CROP.get(), new Item.Properties()));
 

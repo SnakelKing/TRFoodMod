@@ -46,7 +46,7 @@ public class BlockInit {
                     .sound(SoundType.CROP)));
 
     public static final RegistryObject<Block> ARTICHOKE_CROP = BLOCKS.register("artichoke_crop",
-            () -> new ArtichokeCropBlock(BlockBehaviour.Properties.of()
+            () -> new AsparagusCropBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)
                     .noCollission()
                     .randomTicks()
