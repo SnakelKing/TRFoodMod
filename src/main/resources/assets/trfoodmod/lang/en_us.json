@@ -33,6 +33,24 @@
 
   "item.trfoodmod.blueberry": "Blueberry",
   "item.trfoodmod.blueberry_seeds": "Blueberry Seeds",
-  "block.trfoodmod.blueberry_crop": "Blueberry Crop"
+  "block.trfoodmod.blueberry_crop": "Blueberry Crop",
+
+  "item.trfoodmod.cranberry": "Cranberry",
+  "item.trfoodmod.cranberry_seeds": "Cranberry Seeds",
+  "block.trfoodmod.cranberry_crop": "Cranberry Crop",
+
+  "item.trfoodmod.currant": "Currant",
+  "item.trfoodmod.currant_seeds": "Currant Seeds",
+  "block.trfoodmod.currant_crop": "Currant Crop",
+
+  "item.trfoodmod.cantaloupe_slice": "Cantaloupe Slice",
+
+  "item.trfoodmod.elderberry": "Elderberry",
+  "item.trfoodmod.elderberry_seeds": "Elderberry Seeds",
+  "block.trfoodmod.elderberry_crop": "Elderberry Crop",
+
+  "item.trfoodmod.grape": "Grape",
+  "item.trfoodmod.grape_seeds": "Grape Seeds",
+  "block.trfoodmod.grape_crop": "Grape Crop"
 }
-//blueberry
+}

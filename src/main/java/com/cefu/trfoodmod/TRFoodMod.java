@@ -44,6 +44,15 @@ public class TRFoodMod {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.LEEK_CROP.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(BlockInit.BLUEBERRY_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.CRANBERRY_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.CURRANT_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ELDERBERRY_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.GRAPE_CROP.get(), RenderType.cutout());
+
+
     }
 }
-//BLUEBERRY

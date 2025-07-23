@@ -1,4 +1,4 @@
-{
+ {
   "parent": "minecraft:block/crop",
   "textures": {
     "crop": "trfoodmod:block/leek_stage1"

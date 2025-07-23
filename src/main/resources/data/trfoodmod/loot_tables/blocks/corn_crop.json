@@ -2,41 +2,51 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "comment": "bırokoli düşüren havuz",
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "trfoodmod:corn"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_count",
-          "count": {
-            "type": "minecraft:uniform",
-            "min": 2.0,
-            "max": 4.0
-          }
-        },
-        {
-          "function": "minecraft:apply_bonus",
-          "enchantment": "minecraft:fortune",
-          "formula": "minecraft:ore_drops"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:block_state_property",
-          "block": "trfoodmod:corn_crop",
-          "properties": {
-            "age": "3"
-          }
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "trfoodmod:corn",
+              "comment": "1. ŞART (EĞER): Ekin tam büyümüşse (age=7) burası çalışır ve mısır düşürür.",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "trfoodmod:corn_crop",
+                  "properties": {
+                    "age": "3"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4.0,
+                    "max": 6.0
+                  }
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "trfoodmod:corn_seeds",
+              "comment": "2. ŞART (DEĞİLSE): Eğer üstteki şart tutmazsa (ekin büyümemişse), burası çalışır ve sadece 1 tohum düşürür."
+            }
+          ]
         }
       ]
     },
     {
-      "comment": "Tohum düşüren havuz",
+      "comment": "Bu ikinci havuz, SADECE ekin tam büyüdüğünde EKSTRA olarak tohum düşürmek içindir.",
       "rolls": 1,
       "entries": [
         {
@@ -44,22 +54,22 @@
           "name": "trfoodmod:corn_seeds"
         }
       ],
-      "functions": [
-        {
-          "function": "minecraft:set_count",
-          "count": {
-            "type": "minecraft:uniform",
-            "min": 2.0,
-            "max": 3.0
-          }
-        }
-      ],
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
           "block": "trfoodmod:corn_crop",
           "properties": {
             "age": "3"
+          }
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1.0,
+            "max": 3.0
           }
         }
       ]

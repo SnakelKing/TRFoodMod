@@ -93,5 +93,36 @@ public class ItemInit {
     //
     public static final RegistryObject<Item> BLUEBERRY_SEEDS = ITEMS.register("blueberry_seeds",
             () -> new ItemNameBlockItem(BlockInit.BLUEBERRY_CROP.get(), new Item.Properties()));
+
+    //
+    public static final RegistryObject<Item> CRANBERRY = ITEMS.register("cranberry",
+            () -> new Item(new Item.Properties().food(ModFoods.CRANBERRY)));
+
+    //
+    public static final RegistryObject<Item> CRANBERRY_SEEDS = ITEMS.register("cranberry_seeds",
+            () -> new ItemNameBlockItem(BlockInit.CRANBERRY_CROP.get(), new Item.Properties()));
+
+    //
+    public static final RegistryObject<Item> CURRANT = ITEMS.register("currant",
+            () -> new Item(new Item.Properties().food(ModFoods.CURRANT)));
+
+    //
+    public static final RegistryObject<Item> CURRANT_SEEDS = ITEMS.register("currant_seeds",
+            () -> new ItemNameBlockItem(BlockInit.CURRANT_CROP.get(), new Item.Properties()));
+    //
+    public static final RegistryObject<Item> ELDERBERRY = ITEMS.register("elderberry",
+            () -> new Item(new Item.Properties().food(ModFoods.ELDERBERRY)));
+
+    //
+    public static final RegistryObject<Item> ELDERBERRY_SEEDS = ITEMS.register("elderberry_seeds",
+            () -> new ItemNameBlockItem(BlockInit.ELDERBERRY_CROP.get(), new Item.Properties()));
+    //
+    public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
+            () -> new Item(new Item.Properties().food(ModFoods.GRAPE)));
+
+    //
+    public static final RegistryObject<Item> GRAPE_SEEDS = ITEMS.register("grape_seeds",
+            () -> new ItemNameBlockItem(BlockInit.GRAPE_CROP.get(), new Item.Properties()));
+
+
 }
-//BLUEBERRY

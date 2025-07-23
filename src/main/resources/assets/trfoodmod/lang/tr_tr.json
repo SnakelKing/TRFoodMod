@@ -1,37 +1,53 @@
 {
   "item.trfoodmod.tomato": "Domates",
   "item.trfoodmod.tomato_seeds": "Domates Tohumu",
-  "block.trfoodmod.tomato_crop": "Domates Ekini",
+  "block.trfoodmod.tomato_crop": "Domates Mahsulü",
 
   "item.trfoodmod.eggplant": "Patlıcan",
   "item.trfoodmod.eggplant_seeds": "Patlıcan Tohumu",
-  "block.trfoodmod.eggplant_crop": "Patlıcan Ekini",
+  "block.trfoodmod.eggplant_crop": "Patlıcan Mahsulü",
 
   "item.trfoodmod.broccoli": "Brokoli",
   "item.trfoodmod.broccoli_seeds": "Brokoli Tohumu",
-  "block.trfoodmod.broccoli_crop": "Brokoli Ekini",
+  "block.trfoodmod.broccoli_crop": "Brokoli Mahsulü",
 
   "item.trfoodmod.corn": "Mısır",
   "item.trfoodmod.corn_seeds": "Mısır Tohumu",
-  "block.trfoodmod.corn_crop": "Mısır Ekini",
+  "block.trfoodmod.corn_crop": "Mısır Mahsulü",
 
   "item.trfoodmod.artichoke": "Enginar",
   "item.trfoodmod.artichoke_seeds": "Enginar Tohumu",
-  "block.trfoodmod.artichoke_crop": "Enginar Ekini",
+  "block.trfoodmod.artichoke_crop": "Enginar Mahsulü",
 
   "item.trfoodmod.asparagus": "Kuşkonmaz",
   "item.trfoodmod.asparagus_seeds": "Kuşkonmaz Tohumu",
-  "block.trfoodmod.asparagus_crop": "Kuşkonmaz Ekini",
+  "block.trfoodmod.asparagus_crop": "Kuşkonmaz Mahsulü",
 
   "item.trfoodmod.blackberry": "Böğürtlen",
   "item.trfoodmod.blackberry_seeds": "Böğürtlen Tohumu",
-  "block.trfoodmod.blackberry_crop": "Böğürtlen Ekini",
+  "block.trfoodmod.blackberry_crop": "Böğürtlen Mahsulü",
 
   "item.trfoodmod.leek": "Pırasa",
   "item.trfoodmod.leek_seeds": "Pırasa Tohumu",
-  "block.trfoodmod.leek_crop": "Pırasa Ekini",
+  "block.trfoodmod.leek_crop": "Pırasa Mahsulü",
 
   "item.trfoodmod.blueberry": "Yaban Mersini",
   "item.trfoodmod.blueberry_seeds": "Yaban mersini Tohumu",
-  "block.trfoodmod.blueberry_crop": "Yaban mersini Ekini"
+  "block.trfoodmod.blueberry_crop": "Yaban mersini Mahsulü",
+
+  "item.trfoodmod.cranberry": "Turna Yemişi",
+  "item.trfoodmod.cranberry_seeds": "Turna Yemişi Tohumu",
+  "block.trfoodmod.cranberry_crop": "Turna Yemişi Mahsulü",
+
+  "item.trfoodmod.currant": "Frenk Üzümü",
+  "item.trfoodmod.currant_seeds": "Frenk Üzümü Tohumu",
+  "block.trfoodmod.currant_crop": "Frenk Üzümü Mahsulü",
+
+  "item.trfoodmod.elderberry": "Mürver",
+  "item.trfoodmod.elderberry_seeds": "Mürver Tohumu",
+  "block.trfoodmod.elderberry_crop": "Mürver Mahsulü",
+
+  "item.trfoodmod.grape": "Üzüm",
+  "item.trfoodmod.grape_seeds": "Üzüm Çekirdeği",
+  "block.trfoodmod.grape_crop": "Üzüm Mahsulü"
 }

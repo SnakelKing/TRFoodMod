@@ -11,44 +11,64 @@ public class ModFoods {
     // .fast() -> Yeme animasyonunu hızlandırır (isteğe bağlı, meyveler için güzel durur).
     public static final FoodProperties TOMATO = new FoodProperties.Builder()
             .nutrition(1) //1 açlik barında 1 ikon dolduruyor.
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
     public static final FoodProperties EGGPLANT = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
     public static final FoodProperties CORN = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
     public static final FoodProperties BROCCOLI = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.4f)
+            .saturationMod(0.3f)
             .build();
     public static final FoodProperties ARTICHOKE = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
 
     public static final FoodProperties ASPARAGUS = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
 
     public static final FoodProperties BLACBERRY = new FoodProperties.Builder()
             .nutrition(1)
-            .saturationMod(0.2f)
+            .saturationMod(0.1f)
             .build();
 
     public static final FoodProperties LEEK = new FoodProperties.Builder()
             .nutrition(2)
-            .saturationMod(0.3f)
+            .saturationMod(0.2f)
             .build();
 
     public static final FoodProperties BLUEBERRY = new FoodProperties.Builder()
             .nutrition(1)
-            .saturationMod(0.3f)
+            .saturationMod(0.1f)
             .build();
 
+    public static final FoodProperties CRANBERRY = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.1f)
+            .build();
+
+    public static final FoodProperties CURRANT = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties ELDERBERRY = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.1f)
+            .build();
+
+    public static final FoodProperties GRAPE = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.1f)
+            .build();
+
+
 }
-//Blueberry

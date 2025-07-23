@@ -84,8 +84,43 @@ public class BlockInit {
                     .randomTicks()
                     .instabreak()
                     .sound(SoundType.CROP)));
+
+    public static final RegistryObject<Block> CRANBERRY_CROP = BLOCKS.register("cranberry_crop",
+            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)));
+
+    public static final RegistryObject<Block> CURRANT_CROP = BLOCKS.register("currant_crop",
+            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)));
+
+    public static final RegistryObject<Block> ELDERBERRY_CROP = BLOCKS.register("elderberry_crop",
+            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)));
+
+    public static final RegistryObject<Block> GRAPE_CROP = BLOCKS.register("grape_crop",
+            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)));
+
+
+
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
 }
-//BLUEBERRY
+//
