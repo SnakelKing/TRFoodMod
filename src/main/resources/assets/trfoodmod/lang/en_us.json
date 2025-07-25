@@ -43,7 +43,10 @@
   "item.trfoodmod.currant_seeds": "Currant Seeds",
   "block.trfoodmod.currant_crop": "Currant Crop",
 
-  "item.trfoodmod.cantaloupe_slice": "Cantaloupe Slice",
+  "item.trfoodmod.melon_slice": "Melon Slice",
+  "item.trfoodmod.melon_seeds": "Melon Seeds",
+  "block.trfoodmod.melon_block": "Melon",
+  "block.trfoodmod.melon_stem": "Melon Stem",
 
   "item.trfoodmod.elderberry": "Elderberry",
   "item.trfoodmod.elderberry_seeds": "Elderberry Seeds",
@@ -51,6 +54,8 @@
 
   "item.trfoodmod.grape": "Grape",
   "item.trfoodmod.grape_seeds": "Grape Seeds",
-  "block.trfoodmod.grape_crop": "Grape Crop"
+  "block.trfoodmod.grape_crop": "Grape Crop",
+
+
 }
-}
+

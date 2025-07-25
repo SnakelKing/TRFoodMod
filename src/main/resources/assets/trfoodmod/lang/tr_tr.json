@@ -49,5 +49,10 @@
 
   "item.trfoodmod.grape": "Üzüm",
   "item.trfoodmod.grape_seeds": "Üzüm Çekirdeği",
-  "block.trfoodmod.grape_crop": "Üzüm Mahsulü"
+  "block.trfoodmod.grape_crop": "Üzüm Mahsulü",
+
+  "item.trfoodmod.melon_slice": "Kavun Dilimi",
+  "item.trfoodmod.melon_seeds": "Kavun Tohumu",
+  "block.trfoodmod.melon_block": "Kavun",
+  "block.trfoodmod.melon_stem": "Kavun Sapı"
 }

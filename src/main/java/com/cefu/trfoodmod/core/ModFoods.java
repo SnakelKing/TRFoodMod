@@ -70,5 +70,11 @@ public class ModFoods {
             .saturationMod(0.1f)
             .build();
 
+    // ModFoods.java içinde
+    public static final FoodProperties MELON_SLICES = new FoodProperties.Builder()
+            .nutrition(2) // Vanilya karpuz gibi 2 açlık (1 but) doldurur
+            .saturationMod(0.3f)
+            .build();
+
 
 }

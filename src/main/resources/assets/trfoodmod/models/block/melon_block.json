@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "trfoodmod:block/melon_top",
+    "bottom": "trfoodmod:block/melon_top",
+    "side": "trfoodmod:block/melon_side"
+  }
+}

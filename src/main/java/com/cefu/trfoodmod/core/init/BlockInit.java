@@ -5,10 +5,15 @@ import com.cefu.trfoodmod.block.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.AttachedStemBlock;
+import net.minecraft.world.level.block.StemBlock;
+import net.minecraft.world.level.block.StemGrownBlock;
+import com.cefu.trfoodmod.block.MelonStemBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class BlockInit {
@@ -116,6 +121,21 @@ public class BlockInit {
                     .randomTicks()
                     .instabreak()
                     .sound(SoundType.CROP)));
+
+
+    public static final RegistryObject<Block> MELON_BLOCK = BLOCKS.register("melon_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON)));
+
+    public static final RegistryObject<Block> MELON_STEM = BLOCKS.register("melon_stem",
+            () -> new MelonStemBlock(BlockBehaviour.Properties.copy(Blocks.MELON_STEM)));
+
+
+    public static final RegistryObject<Block> ATTACHED_MELON_STEM = BLOCKS.register("attached_melon_stem",
+            () -> new AttachedStemBlock(
+                    () -> (StemGrownBlock)BlockInit.MELON_BLOCK.get(),
+                    () -> ItemInit.MELON_SEEDS.get(),
+                    BlockBehaviour.Properties.copy(Blocks.ATTACHED_MELON_STEM)
+            ));
 
 
 

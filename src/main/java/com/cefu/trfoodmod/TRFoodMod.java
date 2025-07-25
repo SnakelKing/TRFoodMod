@@ -53,6 +53,9 @@ public class TRFoodMod {
 
         ItemBlockRenderTypes.setRenderLayer(BlockInit.GRAPE_CROP.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.MELON_STEM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ATTACHED_MELON_STEM.get(), RenderType.cutout());
+
 
     }
 }

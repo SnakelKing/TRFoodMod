@@ -4,6 +4,7 @@ import com.cefu.trfoodmod.TRFoodMod; // Ana mod sınıfınız
 import net.minecraft.world.item.ItemNameBlockItem;
 import com.cefu.trfoodmod.core.ModFoods;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -123,6 +124,17 @@ public class ItemInit {
     //
     public static final RegistryObject<Item> GRAPE_SEEDS = ITEMS.register("grape_seeds",
             () -> new ItemNameBlockItem(BlockInit.GRAPE_CROP.get(), new Item.Properties()));
+
+
+    public static final RegistryObject<Item> MELON_SLICES = ITEMS.register("melon_slices",
+            () -> new Item(new Item.Properties().food(ModFoods.MELON_SLICES)));
+
+    public static final RegistryObject<Item> MELON_BLOCK_ITEM = ITEMS.register("melon_block",
+            () -> new BlockItem(BlockInit.MELON_BLOCK.get(), new Item.Properties()));
+
+    // ItemInit.java içinde
+    public static final RegistryObject<Item> MELON_SEEDS = ITEMS.register("melon_seeds",
+            () -> new ItemNameBlockItem(BlockInit.MELON_STEM.get(), new Item.Properties()));
 
 
 }
