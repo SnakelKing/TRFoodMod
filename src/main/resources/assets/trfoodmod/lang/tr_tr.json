@@ -51,8 +51,39 @@
   "item.trfoodmod.grape_seeds": "Üzüm Çekirdeği",
   "block.trfoodmod.grape_crop": "Üzüm Mahsulü",
 
-  "item.trfoodmod.melon_slice": "Kavun Dilimi",
-  "item.trfoodmod.melon_seeds": "Kavun Tohumu",
-  "block.trfoodmod.melon_block": "Kavun",
-  "block.trfoodmod.melon_stem": "Kavun Sapı"
+  "item.trfoodmod.pineapple": "Ananas",
+  "item.trfoodmod.pineapple_seeds": "Ananas Tohumu",
+  "block.trfoodmod.pineapple_crop": "Ananas Mahsulü",
+
+  "item.trfoodmod.raspberry": "Ahududu",
+  "item.trfoodmod.raspberry_seeds": "Ahududu Tohumu",
+  "block.trfoodmod.raspberry_crop": "Ahududu Mahsulü",
+
+  "item.trfoodmod.strawberry": "Çilek",
+  "item.trfoodmod.strawberry_seeds": "Çilek Tohumu",
+  "block.trfoodmod.strawberry_crop": "Çilek Mahsulü",
+
+  "item.trfoodmod.cabbage": "Lahana",
+  "item.trfoodmod.cabbage_seeds": "Lahana Tohumu",
+  "block.trfoodmod.cabbage_crop": "Lahana Mahsulü",
+
+  "item.trfoodmod.bellpepper": "Dolmalık Biber",
+  "item.trfoodmod.bellpepper_seeds": "Biber Tohumu",
+  "block.trfoodmod.bellpepper_crop": "Biber Mahsulü",
+
+  "item.trfoodmod.cauliflower": "Karnabahar",
+  "item.trfoodmod.cauliflower_seeds": "Karnabahar Tohumu",
+  "block.trfoodmod.cauliflower_crop": "Karnabahar Mahsulü",
+
+  "item.trfoodmod.celery": "Kereviz",
+  "item.trfoodmod.celery_seeds": "Kereviz Tohumu",
+  "block.trfoodmod.celery_crop": "Kereviz Mahsulü",
+
+  "item.trfoodmod.blackbean": "Sihay Fasulye",
+  "item.trfoodmod.blackbean_seeds": "Fasulye Tohumu",
+  "block.trfoodmod.blackbean_crop": "Fasulye Mahsulü"
+
+
+
 }
+

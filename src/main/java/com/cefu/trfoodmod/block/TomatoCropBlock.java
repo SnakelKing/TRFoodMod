@@ -11,8 +11,8 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class TomatoCropBlock extends CropBlock {
     // Büyüme aşamalarını tanımlıyoruz (0'dan 7'ye kadar).
-    public static final int MAX_AGE = 7;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
+    public static final int MAX_AGE = 3;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
 
     public TomatoCropBlock(Properties pProperties) {
         super(pProperties);

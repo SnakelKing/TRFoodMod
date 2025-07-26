@@ -3,139 +3,84 @@ package com.cefu.trfoodmod.core.init;
 import com.cefu.trfoodmod.TRFoodMod;
 import com.cefu.trfoodmod.block.*;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.AttachedStemBlock;
-import net.minecraft.world.level.block.StemBlock;
-import net.minecraft.world.level.block.StemGrownBlock;
-import com.cefu.trfoodmod.block.MelonStemBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TRFoodMod.MOD_ID);
 
-    // Domates ekinini buraya ekleyeceğiz.
+    // Ekinler
     public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
-            () -> new TomatoCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT) // Haritada bitki renginde görünür
-                    .noCollission() // İçinden geçilebilir
-                    .randomTicks() // Rastgele zamanlarda büyüme tick'i alır
-                    .instabreak() // Anında kırılır
-                    .sound(SoundType.CROP))); // Kırılma sesi ekin sesi olur
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
     public static final RegistryObject<Block> EGGPLANT_CROP = BLOCKS.register("eggplant_crop",
-            () -> new EggplantCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new EggplantCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
     public static final RegistryObject<Block> CORN_CROP = BLOCKS.register("corn_crop",
-            () -> new CornCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
     public static final RegistryObject<Block> BROCCOLI_CROP = BLOCKS.register("broccoli_crop",
-            () -> new BroccoliCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new BroccoliCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> ARTICHOKE_CROP = BLOCKS.register("artichoke_crop",
-            () -> new AsparagusCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new ArtichokeCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> ASPARAGUS_CROP = BLOCKS.register("asparagus_crop",
-            () -> new AsparagusCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new AsparagusCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> BLACKBERRY_CROP = BLOCKS.register("blackberry_crop",
-            () -> new BlackberryCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new BlackberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> LEEK_CROP = BLOCKS.register("leek_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new LeekCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> BLUEBERRY_CROP = BLOCKS.register("blueberry_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new BlueberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> CRANBERRY_CROP = BLOCKS.register("cranberry_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new CranberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> CURRANT_CROP = BLOCKS.register("currant_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new CurrantCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> ELDERBERRY_CROP = BLOCKS.register("elderberry_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new ElderberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     public static final RegistryObject<Block> GRAPE_CROP = BLOCKS.register("grape_crop",
-            () -> new LeekCropBlock(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.PLANT)
-                    .noCollission()
-                    .randomTicks()
-                    .instabreak()
-                    .sound(SoundType.CROP)));
+            () -> new GrapeCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
+    public static final RegistryObject<Block> PINEAPPLE_CROP = BLOCKS.register("pineapple_crop",
+            () -> new PineappleCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
-    public static final RegistryObject<Block> MELON_BLOCK = BLOCKS.register("melon_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON)));
+    public static final RegistryObject<Block> RASPBERRY_CROP = BLOCKS.register("raspberry_crop",
+            () -> new RaspberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
-    public static final RegistryObject<Block> MELON_STEM = BLOCKS.register("melon_stem",
-            () -> new MelonStemBlock(BlockBehaviour.Properties.copy(Blocks.MELON_STEM)));
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
+    public static final RegistryObject<Block> CABBAGE_CROP = BLOCKS.register("cabbage_crop",
+            () -> new CabbageCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
-    public static final RegistryObject<Block> ATTACHED_MELON_STEM = BLOCKS.register("attached_melon_stem",
-            () -> new AttachedStemBlock(
-                    () -> (StemGrownBlock)BlockInit.MELON_BLOCK.get(),
-                    () -> ItemInit.MELON_SEEDS.get(),
-                    BlockBehaviour.Properties.copy(Blocks.ATTACHED_MELON_STEM)
-            ));
+    public static final RegistryObject<Block> BELLPEPPER_CROP = BLOCKS.register("bellpepper_crop",
+            () -> new BellpepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> CAULIFLOWER_CROP = BLOCKS.register("cauliflower_crop",
+            () -> new CauliflowerCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> CELERY_CROP = BLOCKS.register("celery_crop",
+            () -> new CeleryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> BLACKBEAN_CROP = BLOCKS.register("blackbean_crop",
+            () -> new BlackbeanCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
 
 
 
@@ -143,4 +88,3 @@ public class BlockInit {
         BLOCKS.register(eventBus);
     }
 }
-//

@@ -43,11 +43,6 @@
   "item.trfoodmod.currant_seeds": "Currant Seeds",
   "block.trfoodmod.currant_crop": "Currant Crop",
 
-  "item.trfoodmod.melon_slice": "Melon Slice",
-  "item.trfoodmod.melon_seeds": "Melon Seeds",
-  "block.trfoodmod.melon_block": "Melon",
-  "block.trfoodmod.melon_stem": "Melon Stem",
-
   "item.trfoodmod.elderberry": "Elderberry",
   "item.trfoodmod.elderberry_seeds": "Elderberry Seeds",
   "block.trfoodmod.elderberry_crop": "Elderberry Crop",
@@ -55,6 +50,38 @@
   "item.trfoodmod.grape": "Grape",
   "item.trfoodmod.grape_seeds": "Grape Seeds",
   "block.trfoodmod.grape_crop": "Grape Crop",
+
+  "item.trfoodmod.pineapple": "Pineapple",
+  "item.trfoodmod.pineapple_seeds": "Pineapple Seeds",
+  "block.trfoodmod.pineapple_crop": "Pineapple Crop",
+
+  "item.trfoodmod.raspberry": "Raspberry",
+  "item.trfoodmod.raspberry_seeds": "Raspberry Seeds",
+  "block.trfoodmod.raspberry_crop": "Raspberry Crop",
+
+  "item.trfoodmod.strawberry": "Strawberry",
+  "item.trfoodmod.strawberry_seeds": "Strawberry Seeds",
+  "block.trfoodmod.strawberry_crop": "Strawberry Crop",
+
+  "item.trfoodmod.cabbage": "Cabbage",
+  "item.trfoodmod.cabbage_seeds": "Cabbage Seeds",
+  "block.trfoodmod.cabbage_crop": "Cabbage Crop",
+
+  "item.trfoodmod.bellpepper": "Bell Pepper",
+  "item.trfoodmod.bellpepper_seeds": "Bell Pepper Seeds",
+  "block.trfoodmod.bellpepper_crop": "Bell Pepper Crop",
+
+  "item.trfoodmod.cauliflower": "Cauliflower",
+  "item.trfoodmod.cauliflower_seeds": "Cauliflower Seeds",
+  "block.trfoodmod.cauliflower_crop": "Cauliflower Crop",
+
+  "item.trfoodmod.celery": "Celery",
+  "item.trfoodmod.celery_seeds": "Celery Seeds",
+  "block.trfoodmod.celery_crop": "Celery Crop",
+
+  "item.trfoodmod.blackbean": "Black Bean",
+  "item.trfoodmod.blackbean_seeds": "Black Bean Seeds",
+  "block.trfoodmod.blackbean_crop": "Black Bean Crop"
 
 
 }

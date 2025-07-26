@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "trfoodmod:block/melon _ stem_stage2"
-  }
-}
