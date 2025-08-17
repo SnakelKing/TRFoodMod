@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "trfoodmod:block/mustard_stage2"
+  }
+}
