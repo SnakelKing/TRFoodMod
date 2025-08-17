@@ -17,7 +17,7 @@ public class BellpepperCropBlock extends CropBlock {
     public BellpepperCropBlock(Properties pProperties) { super(pProperties); }
 
     @Override
-    protected ItemLike getBaseSeedId() { return ItemInit.BLACKBERRY_SEEDS.get(); }
+    protected ItemLike getBaseSeedId() { return ItemInit.BELLPEPPER_SEEDS.get(); }
 
     @Override
     public IntegerProperty getAgeProperty() {

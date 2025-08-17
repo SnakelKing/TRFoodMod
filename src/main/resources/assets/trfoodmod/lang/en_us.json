@@ -81,8 +81,126 @@
 
   "item.trfoodmod.blackbean": "Black Bean",
   "item.trfoodmod.blackbean_seeds": "Black Bean Seeds",
-  "block.trfoodmod.blackbean_crop": "Black Bean Crop"
+  "block.trfoodmod.blackbean_crop": "Black Bean Crop",
 
+  "item.trfoodmod.cucumber": "Cucumber",
+  "item.trfoodmod.cucumber_seeds": "Cucumber Seeds",
+  "block.trfoodmod.cucumber_crop": "Cucumber Crop",
 
+  "item.trfoodmod.kale": "Kale",
+  "item.trfoodmod.kale_seeds": "Kale Seeds",
+  "block.trfoodmod.kale_crop": "Kale Crop",
+
+  "item.trfoodmod.garlic": "Garlic",
+  "item.trfoodmod.garlic_seeds": "Garlic Seeds",
+  "block.trfoodmod.garlic_crop": "Garlic Crop",
+
+  "item.trfoodmod.hops": "Hops",
+  "item.trfoodmod.hops_seeds": "Hops Seeds",
+  "block.trfoodmod.hops_crop": "Hops Crop",
+
+  "item.trfoodmod.chile_pepper": "Chile Pepper",
+  "item.trfoodmod.chile_pepper_seeds": "Chile Pepper Seeds",
+  "block.trfoodmod.chile_pepper_crop": "Chile Pepper Crop",
+
+  "item.trfoodmod.squash": "Squash",
+  "item.trfoodmod.squash_seeds": "Squash Seeds",
+  "block.trfoodmod.squash_crop": "Squash Crop",
+
+  "item.trfoodmod.lettuce": "Lettuce",
+  "item.trfoodmod.lettuce_seeds": "Lettuce Seeds",
+  "block.trfoodmod.lettuce_crop": "Lettuce Crop",
+
+  "item.trfoodmod.onion": "Onion",
+  "item.trfoodmod.onion_seeds": "Onion Seeds",
+  "block.trfoodmod.onion_crop": "Onion Crop",
+
+  "item.trfoodmod.radish": "Radish",
+  "item.trfoodmod.radish_seeds": "Radish Seeds",
+  "block.trfoodmod.radish_crop": "Radish Crop",
+
+  "item.trfoodmod.rhubarb": "Rhubarb",
+  "item.trfoodmod.rhubarb_seeds": "Rhubarb Seeds",
+  "block.trfoodmod.rhubarb_crop": "Rhubarb Crop",
+
+  "item.trfoodmod.rutabaga": "Rutabaga",
+  "item.trfoodmod.rutabaga_seeds": "Rutabaga Seeds",
+  "block.trfoodmod.rutabaga_crop": "Rutabaga Crop",
+
+  "item.trfoodmod.soybean": "Soybean",
+  "item.trfoodmod.soybean_seeds": "Soybean Seeds",
+  "block.trfoodmod.soybean_crop": "Soybean Crop",
+
+  "item.trfoodmod.spinach": "Spinach",
+  "item.trfoodmod.spinach_seeds": "Spinach Seeds",
+  "block.trfoodmod.spinach_crop": "Spinach Crop",
+
+  "item.trfoodmod.sweetpotato": "Sweet Potato",
+  "item.trfoodmod.sweetpotato_seeds": "Sweet Potato Seeds",
+  "block.trfoodmod.sweetpotato_crop": "Sweet Potato Crop",
+
+  "item.trfoodmod.greenonion": "Green Onion",
+  "item.trfoodmod.greenonion_seeds": "Green Onion Seeds",
+  "block.trfoodmod.greenonion_crop": "Green Onion Crop",
+
+  "item.trfoodmod.tomatillo": "Tomatillo",
+  "item.trfoodmod.tomatillo_seeds": "Tomatillo Seeds",
+  "block.trfoodmod.tomatillo_crop": "Tomatillo Crop",
+
+  "item.trfoodmod.turnip": "Turnip",
+  "item.trfoodmod.turnip_seeds": "Turnip Seeds",
+  "block.trfoodmod.turnip_crop": "Turnip Crop",
+
+  "item.trfoodmod.yam": "Yam",
+  "item.trfoodmod.yam_seeds": "Yam Seeds",
+  "block.trfoodmod.yam_crop": "Yam Crop",
+
+  "item.trfoodmod.zucchini": "Zucchini",
+  "item.trfoodmod.zucchini_seeds": "Zucchini Seeds",
+  "block.trfoodmod.zucchini_crop": "Zucchini Crop",
+
+  "item.trfoodmod.barley": "Barley",
+  "item.trfoodmod.barley_seeds": "Barley Seeds",
+  "block.trfoodmod.barley_crop": "Barley Crop",
+
+  "item.trfoodmod.basil": "Basil",
+  "item.trfoodmod.basil_seeds": "Basil Seeds",
+  "block.trfoodmod.basil_crop": "Basil Crop",
+
+  "item.trfoodmod.ginger": "Ginger",
+  "item.trfoodmod.ginger_seeds": "Ginger Seeds",
+  "block.trfoodmod.ginger_crop": "Ginger Crop",
+
+  "item.trfoodmod.mustard": "Mustard",
+  "item.trfoodmod.mustard_seeds": "Mustard Seeds",
+  "block.trfoodmod.mustard_crop": "Mustard Crop",
+
+  "item.trfoodmod.oat": "Oat",
+  "item.trfoodmod.oat_seeds": "Oat Seeds",
+  "block.trfoodmod.oat_crop": "Oat Crop",
+
+  "item.trfoodmod.peanut": "Peanut",
+  "item.trfoodmod.peanut_seeds": "Peanut Seeds",
+  "block.trfoodmod.peanut_crop": "Peanut Crop",
+
+  "item.trfoodmod.pepper": "Pepper",
+  "item.trfoodmod.pepper_seeds": "Pepper Seeds",
+  "block.trfoodmod.pepper_crop": "Pepper Crop",
+
+  "item.trfoodmod.rice": "Rice",
+  "item.trfoodmod.rice_seeds": "Rice Seeds",
+  "block.trfoodmod.rice_crop": "Rice Crop",
+
+  "item.trfoodmod.turmeric": "Turmeric",
+  "item.trfoodmod.turmeric_seeds": "Turmeric Seeds",
+  "block.trfoodmod.turmeric_crop": "Turmeric Crop",
+
+  "item.trfoodmod.vanilla": "Vanilla",
+  "item.trfoodmod.vanilla_seeds": "Vanilla Seeds",
+  "block.trfoodmod.vanilla_crop": "Vanilla Crop",
+
+  "item.trfoodmod.greenbean": "Greenbean",
+  "item.trfoodmod.greenbean_seeds": "Greenbean Seeds",
+  "block.trfoodmod.greenbean_crop": "Greenbean Crop"
 }
 

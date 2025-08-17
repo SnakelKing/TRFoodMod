@@ -26,6 +26,9 @@ public class TRFoodMod {
         modEventBus.addListener(this::clientSetup);
     }
     private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.GREENBEAN_CROP.get(), RenderType.cutout());
+
+
         // Domates ekininin render tipini "cutout" olarak ayarla
         ItemBlockRenderTypes.setRenderLayer(BlockInit.TOMATO_CROP.get(), RenderType.cutout());
         // Patlıcan ekini
@@ -69,7 +72,63 @@ public class TRFoodMod {
 
         ItemBlockRenderTypes.setRenderLayer(BlockInit.BLACKBEAN_CROP.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.CUCUMBER_CROP.get(), RenderType.cutout());
 
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.KALE_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.GARLIC_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.HOPS_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.CHILE_PEPPER_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.SOYBEAN_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.RUTABAGA_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.RHUBARB_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.RADISH_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ONION_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.LETTUCE_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.SQUASH_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.VANILLA_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TURMERIC_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.RICE_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.PEPPER_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.PEANUT_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.OAT_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.MUSTARD_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.GINGER_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BASIL_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BARLEY_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ZUCCHINI_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.YAM_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TURNIP_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TOMATILLO_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.GREENONION_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.SWEETPOTATO_CROP.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.SPINACH_CROP.get(), RenderType.cutout());
 
     }
 }

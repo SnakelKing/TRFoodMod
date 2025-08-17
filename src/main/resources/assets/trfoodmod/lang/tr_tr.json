@@ -81,7 +81,126 @@
 
   "item.trfoodmod.blackbean": "Sihay Fasulye",
   "item.trfoodmod.blackbean_seeds": "Fasulye Tohumu",
-  "block.trfoodmod.blackbean_crop": "Fasulye Mahsulü"
+  "block.trfoodmod.blackbean_crop": "Fasulye Mahsulü",
+
+  "item.trfoodmod.cucumber": "Hıyar",
+  "item.trfoodmod.cucumber_seeds": "Hıyar Tohumu",
+  "block.trfoodmod.cucumber_crop": "Hıyar Mahsulü",
+
+  "item.trfoodmod.kale": "Kıvırcık",
+  "item.trfoodmod.kale_seeds": "Kıvırcık Tohumu",
+  "block.trfoodmod.kale_crop": "Kıvırcık Mahsulü",
+
+  "item.trfoodmod.garlic": "Sarımsak",
+  "item.trfoodmod.garlic_seeds": "Sarımsak Tohumu",
+  "block.trfoodmod.garlic_crop": "Sarımsak Mahsulü",
+
+  "item.trfoodmod.hops": "Şerbetçi Otu",
+  "item.trfoodmod.hops_seeds": "Şerbetçi Otu Tohumu",
+  "block.trfoodmod.hops_crop": "Şerbetçi Otu Mahsulü",
+
+  "item.trfoodmod.chile_pepper": "Şili Biberi",
+  "item.trfoodmod.chile_pepper_seeds": "Şili Biberi Tohumu",
+  "block.trfoodmod.chile_pepper_crop": "Şili Biberi Mahsulü",
+
+  "item.trfoodmod.squash": "Armut Kabağı",
+  "item.trfoodmod.squash_seeds": "Armut Kabağı Tohumu",
+  "block.trfoodmod.squash_crop": "Armut Kabağı Mahsulü",
+
+  "item.trfoodmod.lettuce": "Marul",
+  "item.trfoodmod.lettuce_seeds": "Marul Tohumu",
+  "block.trfoodmod.lettuce_crop": "Marul Mahsulü",
+
+  "item.trfoodmod.onion": "Soğan",
+  "item.trfoodmod.onion_seeds": "Soğan Tohumu",
+  "block.trfoodmod.onion_crop": "Soğan Mahsulü",
+
+  "item.trfoodmod.radish": "Turp",
+  "item.trfoodmod.radish_seeds": "Turp Tohumu",
+  "block.trfoodmod.radish_crop": "Turp Mahsulü",
+
+  "item.trfoodmod.rhubarb": "Ravent",
+  "item.trfoodmod.rhubarb_seeds": "Ravent Tohumu",
+  "block.trfoodmod.rhubarb_crop": "Ravent Mahsulü",
+
+  "item.trfoodmod.rutabaga": "Şalgam Otu",
+  "item.trfoodmod.rutabaga_seeds": "Şalgam Otu Tohumu",
+  "block.trfoodmod.rutabaga_crop": "Şalgam Otu Mahsulü",
+
+  "item.trfoodmod.soybean": "Soya Fasulyesi",
+  "item.trfoodmod.soybean_seeds": "Soya Fasulyesi Tohumu",
+  "block.trfoodmod.soybean_crop": "Soya Fasulyesi Mahsulü",
+
+  "item.trfoodmod.spinach": "Ispanak",
+  "item.trfoodmod.spinach_seeds": "Ispanak Tohumu",
+  "block.trfoodmod.spinach_crop": "Ispanak Mahsulü",
+
+  "item.trfoodmod.sweetpotato": "Tatlı Patates",
+  "item.trfoodmod.sweetpotato_seeds": "Tatlı Patates Tohumu",
+  "block.trfoodmod.sweetpotato_crop": "Tatlı Patates Mahsulü",
+
+  "item.trfoodmod.greenonion": "Yeşil Soğan",
+  "item.trfoodmod.greenonion_seeds": "Yeşil Soğan Tohumu",
+  "block.trfoodmod.greenonion_crop": "Yeşil Soğan Mahsulü",
+
+  "item.trfoodmod.tomatillo": "Yeşil Domates",
+  "item.trfoodmod.tomatillo_seeds": "Yeşil Domates Tohumu",
+  "block.trfoodmod.tomatillo_crop": "Yeşil Domates Mahsulü",
+
+  "item.trfoodmod.turnip": "Şalgam",
+  "item.trfoodmod.turnip_seeds": "Şalgam Tohumu",
+  "block.trfoodmod.turnip_crop": "Şalgam Mahsulü",
+
+  "item.trfoodmod.yam": "Yer Elması",
+  "item.trfoodmod.yam_seeds": "Yer Elması Tohumu",
+  "block.trfoodmod.yam_crop": "Yer Elması Mahsulü",
+
+  "item.trfoodmod.zucchini": "Kabak",
+  "item.trfoodmod.zucchini_seeds": "Kabak Tohumu",
+  "block.trfoodmod.zucchini_crop": "Kabak Mahsulü",
+
+  "item.trfoodmod.barley": "Arpa",
+  "item.trfoodmod.barley_seeds": "Arpa Tohumu",
+  "block.trfoodmod.barley_crop": "Arpa Mahsulü",
+
+  "item.trfoodmod.basil": "Fesleğen",
+  "item.trfoodmod.basil_seeds": "Fesleğen Tohumu",
+  "block.trfoodmod.basil_crop": "Fesleğen Mahsulü",
+
+  "item.trfoodmod.ginger": "Zencefil",
+  "item.trfoodmod.ginger_seeds": "Zencefil Tohumu",
+  "block.trfoodmod.ginger_crop": "Zencefil Mahsulü",
+
+  "item.trfoodmod.mustard": "Hardal",
+  "item.trfoodmod.mustard_seeds": "Hardal Tohumu",
+  "block.trfoodmod.mustard_crop": "Hardal Mahsulü",
+
+  "item.trfoodmod.oat": "Yulaf",
+  "item.trfoodmod.oat_seeds": "Yulaf Tohumu",
+  "block.trfoodmod.oat_crop": "Yulaf Mahsulü",
+
+  "item.trfoodmod.peanut": "Yer Fıstığı",
+  "item.trfoodmod.peanut_seeds": "Yer Fıstığı Tohumu",
+  "block.trfoodmod.peanut_crop": "Yer Fıstığı Mahsulü",
+
+  "item.trfoodmod.pepper": "Biber",
+  "item.trfoodmod.pepper_seeds": "Biber Tohumu",
+  "block.trfoodmod.pepper_crop": "Biber Mahsulü",
+
+  "item.trfoodmod.rice": "Pirinç",
+  "item.trfoodmod.rice_seeds": "Pirinç Tohumu",
+  "block.trfoodmod.rice_crop": "Pirinç Mahsulü",
+
+  "item.trfoodmod.turmeric": "Zerdeçal",
+  "item.trfoodmod.turmeric_seeds": "Zerdeçal Tohumu",
+  "block.trfoodmod.turmeric_crop": "Zerdeçal Mahsulü",
+
+  "item.trfoodmod.vanilla": "Vanilya",
+  "item.trfoodmod.vanilla_seeds": "Vanilya Tohumu",
+  "block.trfoodmod.vanilla_crop": "Vanilya Mahsulü"
+
+
+
 
 
 

@@ -3,12 +3,14 @@ package com.cefu.trfoodmod.core;
 import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
-    // Tüm yiyecek özelliklerimizi burada tanımlayacağız.
+    public static final FoodProperties GREENBEAN = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
 
-    // Domates için yiyecek özelliklerini oluşturuyoruz.
-    // .nutrition(3) -> 3 açlık puanı (1.5 but) doldurur.
-    // .saturationMod(0.3f) -> Düşük bir doygunluk verir. Doygunluk, açlığınızın ne kadar hızlı düşeceğini etkiler.
-    // .fast() -> Yeme animasyonunu hızlandırır (isteğe bağlı, meyveler için güzel durur).
+
+
+
     public static final FoodProperties TOMATO = new FoodProperties.Builder()
             .nutrition(1) //1 açlik barında 1 ikon dolduruyor.
             .saturationMod(0.3f)
@@ -110,5 +112,155 @@ public class ModFoods {
             .nutrition(1)
             .saturationMod(0.2f)
             .build();
+
+    public static final FoodProperties CUCUMBER = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties KALE = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties GARLIC = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties HOPS = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties CHILE_PEPPER = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties SOYBEAN = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties RUTABAGA = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties RHUBARB = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties RADISH = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties ONION = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties LETTUCE = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties SQUASH = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties VANILLA = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties TURMERIC = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties RICE = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties PEPPER = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties PEANUT = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties OAT = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties MUSTARD = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties GINGER = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties BASIL = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties BARLEY = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties ZUCCHINI = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties YAM = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties TURNIP = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties TOMATILLO = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties GREENONION = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties SWEETPOTATO = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+    public static final FoodProperties SPINACH = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationMod(0.2f)
+            .build();
+
+
+
+
+
 }
-//CELERY
+
